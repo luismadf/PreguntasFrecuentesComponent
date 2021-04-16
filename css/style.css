@@ -82,9 +82,13 @@ main {
 /* QUESTIONS CONTAINER */
 
 .container-questions {
-  display: grid;
+  display: none;
   grid-template-columns: 1fr;
   gap: 40px;
+}
+
+.container-questions.active {
+  display: grid;
 }
 
 .container-question {
@@ -162,19 +166,5 @@ main {
 @media screen and (max-width: 500px) {
   .categories {
     grid-template-columns: 1fr;
-  }
-
-  .category {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-  }
-
-  .category svg {
-    width: 30px;
-    margin-right: 10px;
-    margin-bottom: 0;
   }
 }

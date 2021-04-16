@@ -11,7 +11,7 @@
     <main>
       <h1 class="title">Preguntas Frecuentes</h1>
       <div class="categories" id="categories">
-        <div class="category" data-category="payment-methods">
+        <div class="category active" data-category="payment-methods">
           <svg
             viewbox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,8 @@
       </div>
 
       <div class="questions">
-        <div class="container-questions" data-category="payment-methods">
+        <!-- Payment Methods Questions -->
+        <div class="container-questions active" data-category="payment-methods">
           <div class="container-question">
             <p class="question">
               ¿Que metodos de pago disponible tienen?
@@ -90,7 +91,87 @@
             </p>
           </div>
         </div>
+
+        <!-- Delivery Questions -->
+        <div class="container-questions" data-category="delivery">
+          <div class="container-question">
+            <p class="question">
+              ¿Tienen entregas a domicilio?
+              <img src="/images/plus.svg" alt="Abrir Cerrar Respuesta" />
+            </p>
+            <p class="answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum id
+              amet quo tempora sunt atque laudantium itaque. Ex sit voluptates
+              animi laudantium quos. Illum vero debitis quas magni sed itaque?
+            </p>
+          </div>
+          <div class="container-question">
+            <p class="question">
+              ¿En cuanto sale el envio a mi pais?
+              <img src="/images/plus.svg" alt="Abrir Cerrar Respuesta" />
+            </p>
+            <p class="answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum id
+              amet quo tempora sunt atque laudantium itaque. Ex sit voluptates
+              animi laudantium quos. Illum vero debitis quas magni sed itaque?
+            </p>
+          </div>
+        </div>
+
+        <!-- Security Questions -->
+        <div class="container-questions" data-category="security">
+          <div class="container-question">
+            <p class="question">
+              ¿Como puedo saber si son confiables?
+              <img src="/images/plus.svg" alt="Abrir Cerrar Respuesta" />
+            </p>
+            <p class="answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum id
+              amet quo tempora sunt atque laudantium itaque. Ex sit voluptates
+              animi laudantium quos. Illum vero debitis quas magni sed itaque?
+            </p>
+          </div>
+          <div class="container-question">
+            <p class="question">
+              ¿Que pasa con mis datos personales?
+              <img src="/images/plus.svg" alt="Abrir Cerrar Respuesta" />
+            </p>
+            <p class="answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum id
+              amet quo tempora sunt atque laudantium itaque. Ex sit voluptates
+              animi laudantium quos. Illum vero debitis quas magni sed itaque?
+            </p>
+          </div>
+        </div>
+
+        <!-- Account Questions -->
+        <div class="container-questions" data-category="account">
+          <div class="container-question">
+            <p class="question">
+              ¿Como puedo acceder a mis pedidos?
+              <img src="/images/plus.svg" alt="Abrir Cerrar Respuesta" />
+            </p>
+            <p class="answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum id
+              amet quo tempora sunt atque laudantium itaque. Ex sit voluptates
+              animi laudantium quos. Illum vero debitis quas magni sed itaque?
+            </p>
+          </div>
+          <div class="container-question">
+            <p class="question">
+              ¿Como puedo cambiar mi contraseña?
+              <img src="/images/plus.svg" alt="Abrir Cerrar Respuesta" />
+            </p>
+            <p class="answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum id
+              amet quo tempora sunt atque laudantium itaque. Ex sit voluptates
+              animi laudantium quos. Illum vero debitis quas magni sed itaque?
+            </p>
+          </div>
+        </div>
       </div>
     </main>
+    <script src="/js/categories.js"></script>
+    <script src="/js/questions.js"></script>
   </body>
 </html>
